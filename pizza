@@ -1,0 +1,46 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+
+class Pizzeria {
+public:
+    int id;
+    double rating;
+    Pizzeria(int id, double rating) {
+    this->id = id;
+    this->rating = rating;
+}
+
+class Menu {
+public:
+    int id, pizzaId
+    string TypePizza
+    double price
+        Menu(int id, pizzaId,string TypePizza, double price ) {
+            this->id = id;
+            this-> pizzaId = pizzaId;
+            this->TypePizza = TypePizza
+            this->price = price
+        }
+class Person {
+public:
+    int id, age;
+    string name, address;
+    bool gender;
+        Person (int id, age, string name, address, bool gender){
+            this-> id=id;
+            this->age = age;
+            this-> name = name;
+            this-> address = address;
+            this-> gender = gender;
+        }
+class PersonVisits {
+public:
+    int id, person_id
+}
+    
+}
+    
